@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Reemplazo de IA por Cocaína",
+  "version": "1.0",
+  "description": "Reemplaza 'IA', 'AI' e 'inteligencia artificial' por 'cocaína' en los sitios web.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Activar reemplazo",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
